@@ -1,0 +1,18 @@
+selector{
+    animation:chacoalhar 2s infinite;
+    transform:scale(1) rotate(0deg);
+    transition:.8s ease-in-out;}
+
+selector:hover{
+    transform:scale(1.2); 
+    animation:none; 
+    transition:.8s ease-in-out;}
+
+@keyframes chacoalhar{
+0%,30%,100%{
+    transform:rotate(0deg) scale(1);
+}
+20%,40%{
+    transform:rotate(10deg) scale(1);
+}
+}
